@@ -66,6 +66,7 @@ header img {
 }
 .header--title-container .header--button {
     position: absolute;
+    left: calc(50% - 115px);
     top: 270px;
     display: block;
     margin-top: 35px;
@@ -81,4 +82,11 @@ header img {
     font-weight: bold;
     text-decoration: none;
     color: var(--black);
+}
+.header--button span {
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url('./assets/icons/mdi-keyboard-arrow-down.svg');
 }
