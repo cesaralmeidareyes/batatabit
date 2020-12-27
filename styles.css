@@ -13,7 +13,7 @@
     --soft-blue: #e7f5ff;
     --warm-black: #201e1c;
     --black: #282623;
-    --grey: #bababa;
+    --grey: #6b6b6b;
     --off-withe: #faf8f7;
     --just-withe: #fff;
 }
@@ -133,7 +133,7 @@ main {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.6rem;
-    color: #757575;
+    color: #555555;
 }
 /* Currency and Comissions tables */
 .main-tables-container {
@@ -156,16 +156,16 @@ main {
 .main-currency-table .currency-table--title {
     margin-bottom: 15px;
     font-size: 1.8rem;
-    font-weight: bold;
+    font-weight: normal;
     line-height: 2.3rem;
-    color: var(--bitcoin-orange);
+    color: var(--warm-black);
 }
 .main-comissions-table .comissions-table--title {
     margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
-    color: var(--secondary-blue);
+    color: var(--warm-black);
 }
 .currency-table--container, .comissions-table--container {
     width: 90%;
@@ -282,7 +282,7 @@ main {
     margin-bottom: 20px;
     font-size: 1.4rem;
     font-weight: 500;
-    color: #808080;
+    color: #e0e0e0;
 }
 .product-detail--card {
     width: 90%;
@@ -327,7 +327,7 @@ main {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
-    color: #808080;
+    color: #bbbbbb;
 }
 /* Sección 3 */
 .bitcoin-img-container {
@@ -335,7 +335,7 @@ main {
     min-width: 320px;
     height: 50vh;
     max-height: 500px;
-    background-image: url('./assets/imgs/bitcoinbaby.png');
+    background-image: url('./assets/imgs/bitcoinbaby.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -374,7 +374,7 @@ main {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
-    color: #757575;
+    color: #555555;
 }
 /* Slider */
 .plans-container--slider {
@@ -404,10 +404,13 @@ main {
     position: absolute;
     width: 120px;
     height: 31px;
-    padding: 8px;
+    padding: 5px;
     top: -15px;
     left: calc(50% - 60px);
-    background-color: var(--bitcoin-orange);
+    font-size: 1.4rem;
+    font-weight: bold;
+    /* background-color: var(--bitcoin-orange); */
+    background: linear-gradient(207.8deg, #f57a00 16.69%, #F7931A 100%);
     border-radius: 8px;
     color: var(--just-withe);
 }
@@ -472,7 +475,8 @@ footer {
     display: flex;
     width: 100%;
     height: 150px;
-    background-color: var(--bitcoin-orange);
+    /* background-color: var(--bitcoin-orange); */
+    background: linear-gradient(207.8deg, #804d1b 16.69%, #F7931A 100%);
 }
 footer section {
     display: flex;
@@ -481,7 +485,7 @@ footer section {
     align-items: center;
 }
 footer .left ul {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: 500;
     line-height: 1.8reme;
     list-style: none;
