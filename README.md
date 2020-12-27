@@ -1,11 +1,11 @@
 # batatabit
-Desarrollo de web orientada a las transacciones y :persevere: :feelsgood: **Bienvenido o bienvenida a este repositorio.**
+**Bienvenido o bienvenida al repositorio de Batabit.**
 
 Batata bit es un proyecto orientado a las transacciones y análisis en tiempo real de **criptomonedas**.
 
 La web está hecha sin usar grid layout, ni algún framework adicional. Además, su maquetación está basada **mobile first** y escritura de código **BEM**.
 
-Sé libre de echar un vistazo al site github pages https://cesaralmeidareyes.github.io/batatabit/
+Sé libre de echar un vistazo al site en github pages https://cesaralmeidareyes.github.io/batatabit/
 
 
 ------------
