@@ -375,6 +375,7 @@ main {
     height: 250px;
     margin: 50px auto 0;
     padding: 0 15px;
+    padding-top: 30px;
     background-color: var(--just-withe);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
@@ -407,10 +408,20 @@ main {
 }
 .plan-card--price span {
     position: absolute;
-    top: -6px;
-    left: 56px;
     font-size: 1.2rem;
     font-weight: 300;
+}
+.plan-card--price .mensual {
+    top: -6px;
+    left: 63px;
+}
+.plan-card--price .anual {
+    top: -6px;
+    left: 58px;
+}
+.plan-card--price .lifetime {
+    top: -6px;
+    left: 49px;
 }
 .plan-card--saving {
     font-size: 1.2rem;
