@@ -325,6 +325,7 @@ main {
     width: 100%;
     min-width: 320px;
     height: 50vh;
+    max-height: 500px;
     background-image: url('./assets/imgs/bitcoinbaby.png');
     background-position: center;
     background-size: cover;
